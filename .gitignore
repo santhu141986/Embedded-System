@@ -1,0 +1,18 @@
+# Ignore build directories across all projects
+**/Debug/
+**/Release/
+
+# Ignore object/binary files
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+
+# Ignore IDE/Editor configs
+**/.settings/
+**/.vscode/
+**/.idea/
+**/*.launch
+**/*.swp
